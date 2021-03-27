@@ -2292,7 +2292,7 @@ let detectDomainLocale;
 
 if (false) {}
 
-const basePath = "/jdi-light/material" || false;
+const basePath =  false || '';
 
 function buildCancellationError() {
   return Object.assign(new Error('Route Cancelled'), {
