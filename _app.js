@@ -311,40 +311,18 @@ const NavList = () => {
           })
         })
       })
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(ListItem_default.a, {
-      button: true,
-      onClick: () => handleClick(5),
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-        primary: "Checkbox"
-      }), checkIfOpen(5) ? /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandLess_default.a, {}) : /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandMore_default.a, {})]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(Collapse_default.a, {
-      in: checkIfOpen(5),
-      timeout: "auto",
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/basic_checkboxes",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Basic Checkboxes"
-            })
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
+      component: "div",
+      disablePadding: true,
+      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+        href: "/checkboxes",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
+          button: true,
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
+            primary: "Checkboxes"
           })
         })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/checkboxes_group",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Checkboxes Group"
-            })
-          })
-        })
-      })]
+      })
     }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
       component: "div",
       disablePadding: true,
@@ -357,52 +335,18 @@ const NavList = () => {
           })
         })
       })
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(ListItem_default.a, {
-      button: true,
-      onClick: () => handleClick(7),
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-        primary: "Date / Time"
-      }), checkIfOpen(7) ? /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandLess_default.a, {}) : /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandMore_default.a, {})]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(Collapse_default.a, {
-      in: checkIfOpen(7),
-      timeout: "auto",
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/date_picker_inline",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Date Picker Inline"
-            })
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
+      component: "div",
+      disablePadding: true,
+      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+        href: "/date_picker",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
+          button: true,
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
+            primary: "Date / Time"
           })
         })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/date_picker_dialog",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Date Picker Dialog"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/time_picker",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Time Picker"
-            })
-          })
-        })
-      })]
+      })
     }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
       component: "div",
       disablePadding: true,
@@ -415,98 +359,30 @@ const NavList = () => {
           })
         })
       })
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(ListItem_default.a, {
-      button: true,
-      onClick: () => handleClick(8),
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-        primary: "Select"
-      }), checkIfOpen(8) ? /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandLess_default.a, {}) : /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandMore_default.a, {})]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(Collapse_default.a, {
-      in: checkIfOpen(8),
-      timeout: "auto",
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/simple_select",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Simple Select"
-            })
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
+      component: "div",
+      disablePadding: true,
+      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+        href: "/selects",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
+          button: true,
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
+            primary: "Select"
           })
         })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/disabled_select",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Disabled Select"
-            })
+      })
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
+      component: "div",
+      disablePadding: true,
+      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+        href: "/sliders",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
+          button: true,
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
+            primary: "Sliders"
           })
         })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/multiple_select",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Multiple Select"
-            })
-          })
-        })
-      })]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(ListItem_default.a, {
-      button: true,
-      onClick: () => handleClick(9),
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-        primary: "Slider"
-      }), checkIfOpen(9) ? /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandLess_default.a, {}) : /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandMore_default.a, {})]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(Collapse_default.a, {
-      in: checkIfOpen(9),
-      timeout: "auto",
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/slider",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Slider"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/range_slider",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Range Slider"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/vertical_slider",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Vertical Slider"
-            })
-          })
-        })
-      })]
+      })
     }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
       component: "div",
       disablePadding: true,
@@ -744,445 +620,83 @@ const NavList = () => {
           })
         })
       })]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(ListItem_default.a, {
-      button: true,
-      onClick: () => handleClick(14),
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-        primary: "Stepper"
-      }), checkIfOpen(14) ? /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandLess_default.a, {}) : /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandMore_default.a, {})]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(Collapse_default.a, {
-      in: checkIfOpen(14),
-      timeout: "auto",
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/simple_stepper",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Simple Stepper"
-            })
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
+      component: "div",
+      disablePadding: true,
+      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+        href: "/steppers",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
+          button: true,
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
+            primary: "Stepper"
           })
         })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/mobile_stepper",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Mobile Stepper"
-            })
+      })
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
+      component: "div",
+      disablePadding: true,
+      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+        href: "/tabs",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
+          button: true,
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
+            primary: "Tabs"
           })
         })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/stepper_with_option",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Stepper With Option"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/non_linear_stepper",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Non Linear Stepper"
-            })
-          })
-        })
-      })]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(ListItem_default.a, {
-      button: true,
-      onClick: () => handleClick(15),
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-        primary: "Tabs"
-      }), checkIfOpen(15) ? /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandLess_default.a, {}) : /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandMore_default.a, {})]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(Collapse_default.a, {
-      in: checkIfOpen(15),
-      timeout: "auto",
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/tab_panel",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Tab Panel"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/vertical_tab",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Vertical Tab"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/disabled_tab",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Disabled Tab"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/prevent_scroll_buttons",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Prevent Scroll Buttons"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/scrollable_tab",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Scrollable Tab"
-            })
-          })
-        })
-      })]
+      })
     }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListSubheader_default.a, {
       component: "div",
       id: "nested-list-subheader-navigation",
       disableSticky: true,
       children: "Feedback"
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(ListItem_default.a, {
-      button: true,
-      onClick: () => handleClick(16),
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-        primary: "Progress"
-      }), checkIfOpen(16) ? /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandLess_default.a, {}) : /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandMore_default.a, {})]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(Collapse_default.a, {
-      in: checkIfOpen(16),
-      timeout: "auto",
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/circular_indeterminate",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Circular Indeterminate Menu"
-            })
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
+      component: "div",
+      disablePadding: true,
+      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+        href: "/progress",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
+          button: true,
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
+            primary: "Progress"
           })
         })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/circular_determinate",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Circular Determinate"
-            })
+      })
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
+      component: "div",
+      disablePadding: true,
+      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+        href: "/dialog",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
+          button: true,
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
+            primary: "Dialog"
           })
         })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/circular_with_value_label",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Circular With Value Label"
-            })
+      })
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
+      component: "div",
+      disablePadding: true,
+      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+        href: "/snackbar",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
+          button: true,
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
+            primary: "Snackbar"
           })
         })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/linear_indeterminate",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Linear Indeterminate"
-            })
+      })
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
+      component: "div",
+      disablePadding: true,
+      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+        href: "/backdrop",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
+          button: true,
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
+            primary: "Backdrop"
           })
         })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/linear_determinate",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Linear Determinate"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/linear_buffer",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Linear Buffer"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/linear_with_value_label",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Linear With Value Label"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/customized_progress_bars",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Customized Progress Bars"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/delaying_appearance",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Delaying Appearance"
-            })
-          })
-        })
-      })]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(ListItem_default.a, {
-      button: true,
-      onClick: () => handleClick(17),
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-        primary: "Dialog"
-      }), checkIfOpen(17) ? /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandLess_default.a, {}) : /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandMore_default.a, {})]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(Collapse_default.a, {
-      in: checkIfOpen(17),
-      timeout: "auto",
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/alert_dialog",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Alert Dialog"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/confirmation_dialog",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Confirmation Dialog"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/form_dialog",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Form Dialog"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/list_items_dialog",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "List Items Dialog"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/scrollable_dialog",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Scrollable Dialog"
-            })
-          })
-        })
-      })]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(ListItem_default.a, {
-      button: true,
-      onClick: () => handleClick(18),
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-        primary: "Snackbar"
-      }), checkIfOpen(18) ? /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandLess_default.a, {}) : /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandMore_default.a, {})]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(Collapse_default.a, {
-      in: checkIfOpen(18),
-      timeout: "auto",
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/simple_snackbar",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Simple Snackbar"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/customized_snackbars",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Customized Snackbars"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/positioned_snackbar",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Positioned Snackbar"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/transitions_snackbar",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Transitions Snackbar"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/consecutive_snackbars",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Consecutive Snackbars"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/direction_snackbar",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Direction Snackbar"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/fab_integration_snackbar",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Fab Integration Snackbar"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/integration_notistack",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Integration Notistack"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/long_text_snackbar",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Long Text Snackbar"
-            })
-          })
-        })
-      })]
+      })
     }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListSubheader_default.a, {
       component: "div",
       id: "nested-list-subheader-navigation",
@@ -1590,18 +1104,6 @@ const NavList = () => {
           button: true,
           children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
             primary: "Use Media Query"
-          })
-        })
-      })
-    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-      component: "div",
-      disablePadding: true,
-      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-        href: "/backdrop",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-          button: true,
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-            primary: "Backdrop"
           })
         })
       })
@@ -2790,7 +2292,7 @@ let detectDomainLocale;
 
 if (false) {}
 
-const basePath =  false || '';
+const basePath = "/jdi-light/material" || false;
 
 function buildCancellationError() {
   return Object.assign(new Error('Route Cancelled'), {
