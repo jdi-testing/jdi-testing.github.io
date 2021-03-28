@@ -825,71 +825,27 @@ const NavList = () => {
           })
         })
       })]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(ListItem_default.a, {
-      button: true,
-      onClick: () => handleClick(20),
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-        primary: "Icons"
-      }), checkIfOpen(20) ? /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandLess_default.a, {}) : /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandMore_default.a, {})]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(Collapse_default.a, {
-      in: checkIfOpen(20),
-      timeout: "auto",
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/simple_icons",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Simple Icons"
-            })
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
+      component: "div",
+      disablePadding: true,
+      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+        href: "/icons",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
+          button: true,
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
+            primary: "Icons"
           })
         })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/color_icons",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Icons with different color"
-            })
-          })
-        })
-      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/size_icons",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Icons with different sizes"
-            })
-          })
-        })
-      })]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(ListItem_default.a, {
-      button: true,
-      onClick: () => handleClick(21),
-      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-        primary: "Material Icons"
-      }), checkIfOpen(21) ? /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandLess_default.a, {}) : /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandMore_default.a, {})]
-    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(Collapse_default.a, {
-      in: checkIfOpen(21),
-      timeout: "auto",
-      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-        component: "div",
-        disablePadding: true,
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-          href: "/alarm_icon",
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-            button: true,
-            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-              primary: "Alarm Icon"
-            })
+      })
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
+      component: "div",
+      disablePadding: true,
+      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+        href: "/material_icons",
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
+          button: true,
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
+            primary: "Material Icons"
           })
         })
       })
