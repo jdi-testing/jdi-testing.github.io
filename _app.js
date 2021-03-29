@@ -702,18 +702,76 @@ const NavList = () => {
       id: "nested-list-subheader-navigation",
       disableSticky: true,
       children: "Surfaces"
-    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
-      component: "div",
-      disablePadding: true,
-      children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
-        href: "/appbar_surface",
-        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
-          button: true,
-          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
-            primary: "AppBar"
+    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(ListItem_default.a, {
+      button: true,
+      onClick: () => handleClick(15),
+      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
+        primary: "App Bar"
+      }), checkIfOpen(15) ? /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandLess_default.a, {}) : /*#__PURE__*/Object(jsx_runtime_["jsx"])(ExpandMore_default.a, {})]
+    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])(Collapse_default.a, {
+      in: checkIfOpen(15),
+      timeout: "auto",
+      children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
+        component: "div",
+        disablePadding: true,
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+          href: "/appbar_surface",
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
+            button: true,
+            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
+              primary: "Simple App Bars"
+            })
           })
         })
-      })
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
+        component: "div",
+        disablePadding: true,
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+          href: "/appbar_bottom",
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
+            button: true,
+            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
+              primary: "Bottom App Bar"
+            })
+          })
+        })
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
+        component: "div",
+        disablePadding: true,
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+          href: "/appbar_scroll_hide",
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
+            button: true,
+            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
+              primary: "Hide App Bar"
+            })
+          })
+        })
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
+        component: "div",
+        disablePadding: true,
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+          href: "/appbar_elevate",
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
+            button: true,
+            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
+              primary: "Elevate App Bar"
+            })
+          })
+        })
+      }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
+        component: "div",
+        disablePadding: true,
+        children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(link_default.a, {
+          href: "/appbar_back_to_top",
+          children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItem_default.a, {
+            button: true,
+            children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(ListItemText_default.a, {
+              primary: "Back to top"
+            })
+          })
+        })
+      })]
     }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(List_default.a, {
       component: "div",
       disablePadding: true,
